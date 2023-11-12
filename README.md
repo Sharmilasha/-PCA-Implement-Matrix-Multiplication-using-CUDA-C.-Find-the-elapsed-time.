@@ -8,7 +8,7 @@ To Implement Matrix Multiplication using GPU
 Procedure:
 
 1.Include the required files and library.
-2.Declare the block size and the size of elements .
+2.Declare the block size and the size of elements 
 3.Introduce Kernel function to perform matrix multiplication.In the kernal function,decalre the row column size and initialize the sum to be 0,then using for loop calculate the sum.
 4.Intoduce a Main function, in the main method declare the required variables and Initialize the matrices 'a' and 'b'.Allocate memory on the device and then copy the input matrices from host to device memory and set the grid and block sizes . Launch the kernel,Copy the result matrix from device to host memory ,Print the result matrix and the elapsed time followed by freeing the device memory.
 5.Save the program and execute it .
@@ -103,9 +103,12 @@ int main()
 
     return 0;
 }
+
 ```
 Output:
+
 ![zz](https://github.com/Sharmilasha/-PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time./assets/94506182/01bcd5d3-d6e3-4d48-9643-e001a4511e7e)
 
 Result:
+
 Thus Matrix Multiplication implementation using GPU is done successfully.
